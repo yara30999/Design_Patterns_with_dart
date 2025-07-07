@@ -42,11 +42,14 @@ void main() {
 
 طيب الحل ايه؟
 
-```markfile
-لو تلاحظ انا ببعت Request،عند كل if statement بتشيك هل هقدر اعمل processing ولا لا ، لو عملت processing ال if-else statement هتقف، طيب لو معرفتش اعمل processing هبعته للي بعدي، هو دا بالظبط ال Chain of Responsibility.
+<div dir="rtl" style="border:1px solid gray; padding:10px; border-radius:5px;">
+  لو تلاحظ انا ببعت Request،عند كل if statement بتشيك هل هقدر اعمل processing ولا لا ، لو عملت processing ال if-else statement هتقف، طيب لو معرفتش اعمل processing هبعته للي بعدي، هو دا بالظبط ال Chain of Responsibility.
 
-فأنا بس هغير طريقه كنابتي للكود عشان احافظ عل ال SOLID , اخلي الكود Clean أكتر.
-```
+فأنا بس هغير طريقه كتابتي للكود عشان احافظ عل ال SOLID , اخلي الكود Clean أكتر.
+
+</div>
+
+---
 
 # Solution 1️⃣
 
@@ -173,12 +176,8 @@ class HandlerA extends BaseHandler {
 
 إذن إمتى المفروض استعمل الباترن دا ؟
 
-```markfile
 - لما يكون عندي اكثر من Handler for the Client Request ( بس خلال ال run-time ال client code مش مهتم يعرف مين ال عمل handling لل request بتاعه)
 - لما ال request يكون المفروض يتعمله Processing by secific order.
 - لما أكون عايز اقدر اغير ترتيب ال chain و اضيف عليها من غير ما أعمل Breaking changes.
 - لما اكون عايز اعمل Decoupling بين ال client code(sender) و ال handlers(reciever).
 - عايز اتخلص من ال centralization و ال Complex if-else statement.
-```
-
-🎧 Give the podcast a listen for a couple of minutes. [Click here.](01_cor/cor.wav)
