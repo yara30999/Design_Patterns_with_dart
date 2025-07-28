@@ -66,7 +66,7 @@ void main() {
 
 # Solution 1️⃣
 
-![first solution](02_command/light_ex.png)
+![first solution](assets/02_command/light_ex.png)
 ال Reciver Class جواه ال Actual logic.
 
 ```dart
@@ -245,7 +245,7 @@ void main() {
 
 # Solution 2️⃣
 
-![second solution](02_command/cook_ex.png)
+![second solution](assets/02_command/cook_ex.png)
 
 ممكن اعمل Abstract class for the Invoker and Receiver على حسب الحاجه، عندي Waiter, TakeAwayMan الاتنين عباره عن Invoker كل واحد فيهم بياخد اكتر من اوردر و يبعته للشيف، ممكن يكونوا شغالين مع أكتر من شيف مش لازم يكونوا Tightly coupled for one Cook.
 
@@ -385,7 +385,7 @@ void main() {
 
 # Pros and cons
 
-![second solution](02_command/pros_cons.png)
+![second solution](assets/02_command/pros_cons.png)
 
 # 🧾 Conclusion
 

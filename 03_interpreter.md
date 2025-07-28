@@ -60,7 +60,7 @@ behavioral design pattern used to define a language's grammar and provide an int
 
 # Solution
 
-![second solution](03_interpreter/interpreter.png)
+![second solution](assets/03_interpreter/interpreter.png)
 
 عشان اعمل implementation للباترن دا للباترن دا لاوم افهم مكوناته الأساسيه عشان اعرف استخدمها بالطريقه الي تناسب المشكله الي عندي.
 
@@ -329,7 +329,7 @@ void main() {
 
 # Pros and cons
 
-![second solution](03_interpreter/pros_cons.png)
+![second solution](assets/03_interpreter/pros_cons.png)
 
 # 🧾 Conclusion
 

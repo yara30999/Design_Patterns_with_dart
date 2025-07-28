@@ -53,7 +53,7 @@ void main() {
 
 # Solution 1️⃣
 
-![first solution](01_cor/cor_1.png)
+![first solution](assets/01_cor/cor_1.png)
 
 ```dart
 // Abstract handler
@@ -121,7 +121,7 @@ void main() {
 
 # Solution 2️⃣
 
-![second solution](01_cor/cor_2.png)
+![second solution](assets/01_cor/cor_2.png)
 
 الفرق الوحيد اني عايزه اعمل Encapsulation for nextHandler attribute, واخليه Private بالنسبه لأي files تانيه لو انا محتاجه دا.
 
@@ -170,7 +170,7 @@ class HandlerA extends BaseHandler {
 
 # Pros and cons
 
-![second solution](01_cor/pros_cons.png)
+![second solution](assets/01_cor/pros_cons.png)
 
 # 🧾 Conclusion
 
